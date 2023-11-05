@@ -11,4 +11,4 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, host);
-console.log(`Running on http://${host}:${port}`);
+console.log(`Running on url http://${host}:${port}`);
